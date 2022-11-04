@@ -7,7 +7,7 @@ Wheel-SLAM is a SLAM solution using only one low-cost wheel-mounted IMU (Wheel-I
 Here we provide some supplementary results and explanation to our paper. The experiments were carried out in the campus of Wuhan University, including five sequences. The street view of the experimental trajectories are shown as following.
 
 *The five experimental trajectories.*
-![allSequences](https://user-images.githubusercontent.com/25290921/199989112-bb553319-3529-435b-9918-9b256334ff3e.png)
+![allSequences](https://user-images.githubusercontent.com/25290921/200004526-77b7a9a9-8956-4d24-84b9-a802d93b79f9.png)
 
 *The street view of the experimental trajectories.*
 ![streetview](https://user-images.githubusercontent.com/25290921/199988955-abba5ac5-fc29-4987-beeb-5464faeb1374.png)

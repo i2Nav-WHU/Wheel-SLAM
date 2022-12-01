@@ -58,4 +58,4 @@ Following figures show the positioning results of Wheel-SLAM overlaying on Googl
 ![seq5](https://user-images.githubusercontent.com/25290921/199610768-1c604bbd-ebec-44a8-8e5e-c39917b96d49.png)
 
 ## Acknowledgement
-We would like to thank [Tim Bailey](https://github.com/OpenSLAM-org/openslam_bailey-slam) for share his implementation of [FastSLAM 1.0](http://robots.stanford.edu/papers/montemerlo.fastslam-tr.pdf) and [2.0](http://robots.stanford.edu/papers/Montemerlo03a.pdf). 
+We would like to thank [Tim Bailey](https://github.com/OpenSLAM-org/openslam_bailey-slam) for sharing his implementation of [FastSLAM 1.0](http://robots.stanford.edu/papers/montemerlo.fastslam-tr.pdf) and [2.0](http://robots.stanford.edu/papers/Montemerlo03a.pdf). 

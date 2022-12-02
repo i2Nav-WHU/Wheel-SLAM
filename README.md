@@ -1,6 +1,6 @@
 # Wheel-SLAM: Simultaneous Localization and Terrain Mapping Using One Wheel-mounted IMU
 
-[Wheel-SLAM](https://arxiv.org/pdf/2211.03174.pdf) is a SLAM solution using only one low-cost wheel-mounted IMU (Wheel-IMU). Extended from our previous studies on [Wheel-INS](https://github.com/i2Nav-WHU/Wheel-INS), a Wheel-IMU based dead reckoning system, we propose to exploit the environmental perception ability of the Wheel-IMU to enable loop closure in Wheel-INS. To be specific, we use the road bank angles (mirrored by the robot roll angles estimated by Wheel-INS) as terrain features for loop closure detection. The system is implemented with a Rao-Blackwellized particle filter where each particle maintains its own robot state and terrain map. The environment is represented as a 2D grid map where each grid encodes the road bank angle indicated by the robot roll angle at that position. The weights of particles are updated according to the difference between the current roll estimates and the value retrieved from the grid map.
+[Wheel-SLAM](https://arxiv.org/pdf/2211.03174.pdf) is a SLAM solution using only one low-cost wheel-mounted IMU (Wheel-IMU). Extended from our previous studies on [Wheel-INS](https://github.com/i2Nav-WHU/Wheel-INS), a Wheel-IMU based dead reckoning system, we propose to exploit the environmental perception ability of the Wheel-IMU to enable loop closure detection in Wheel-INS. To be specific, we use the road bank angles (mirrored by the robot roll angles estimated by Wheel-INS) as terrain features for loop closure detection. The system is implemented with a Rao-Blackwellized particle filter where each particle maintains its own robot state and terrain map. The environment is represented as a 2D grid map where each grid encodes the road bank angle indicated by the robot roll angle at that position. The weights of particles are updated according to the difference between the current roll estimates and the value retrieved from the grid map.
 
 ## Introduction
 The input of Wheel-SLAM is the odometry results from Wheel-INS. The entrance of the code is "***wheelslam_main.m***". The parameters can be found in "***config202107311.m***".
@@ -8,12 +8,13 @@ The input of Wheel-SLAM is the odometry results from Wheel-INS. The entrance of 
 We also provide a set of data with ground truth for reproducing the results in our paper. The robot trajectory estimated by Wheel-INS have been transformed into a dead reckoning format, e.g., the travel distance and the heading change of the robot. Plese refer to the ***data*** folder.
 
 ## Citations
-If you find our study is helpful to your research, please consider to cite our Wheel-SLAM paper
+If you find our study helpful to your research, please consider to cite our Wheel-SLAM paper
 ```bibtex
 @ARTICLE{wu2022ral,
-  title={Wheel-SLAM: Simultaneous Localization and Terrain Mapping Using One Wheel-mounted IMU},
+  title={{Wheel-SLAM}: Simultaneous Localization and Terrain Mapping Using One Wheel-mounted IMU},
   author={Wu, Yibin and Kuang, Jian and Niu, Xiaoji and Behley, Jens and Klingbeil, Lasse and Kuhlmann, Heiner},
   journal={IEEE Robotics and Automation Letters},
+  doi={10.1109/LRA.2022.3226071},
   year={2022}
 }
 ```
@@ -22,7 +23,7 @@ or/and our Wheel-INS paper.
 @ARTICLE{niu2021tvt,
   author={Niu, Xiaoji and Wu, Yibin and Kuang, Jian},
   journal={IEEE Transactions on Vehicular Technology}, 
-  title={Wheel-INS: A Wheel-Mounted MEMS IMU-Based Dead Reckoning System}, 
+  title={{Wheel-INS}: A Wheel-Mounted MEMS IMU-Based Dead Reckoning System}, 
   year={2021},
   volume={70},
   number={10},
